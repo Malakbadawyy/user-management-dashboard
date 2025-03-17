@@ -1,5 +1,22 @@
-# Vue 3 + TypeScript + Vite
+# User Management Dashboard
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A comprehensive user management dashboard built with Vue 3, TypeScript, Pinia, and RESTful API integration.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Features
+
+- **User List View**: Table with pagination, search, filtering, and sorting
+- **User Detail View**: Detailed user profile with edit form and validation
+- **Authentication & Authorization**: Role-based access control with route guards
+- **State Management**: Pinia store implementation with optimistic updates
+- **Advanced Features**:
+  - Theme switching (light/dark mode)
+  - Bulk operations on multiple users
+  - CSV export functionality
+
+## Setup and Run Instructions
+
+### Prerequisites
+
+- Node.js (v16+)
+- npm or yarn
+
